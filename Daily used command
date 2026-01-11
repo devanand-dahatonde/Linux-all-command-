@@ -1,1 +1,70 @@
+tty  = terminal type
+
+hostname = which is machine in work
+
+whoami = user name information
+
+w = daya , users , load , average
+
+ls cpu = list cpu system information
+
+free  = free command
+
+free -h = command is used in Linux to display the total, used, and available memory (RAM and Swap) of the system.
+
+uname =  command is used to display essential system information regarding the operating system, kernel, and hardware architecture
+
+uname -a = command is used to display all available system information in a single output string
+
+cat /etc/os-release = file is a standard configuration file in Linux used to identify the Operating System's distribution details
+
+history = all command in history information show
+
+cal = calender present show
+
+cal -j = command is used to display the calendar in Julian Day format
+
+shutdown = command is the safest way to power off or reboot a Linux system because it notifies all logged-in users and stops all running processes gracefully
+
+shoutdown now = command is used to immediately and safely power off the Linux system
+
+logout = current existing user
+
+rebout = system rebout
+
+date -s = date change   { example - date -s "2026-01-11 23:35:00" }
+
+rm -r = command is used to delete directories and their contents recursively
+
+rm -rvf = command is used to forcefully and recursively delete a directory and all its contents while providing real-time feedback
+
+rm * = all file delete current location
+
+cp source destination =  only file copy
+
+cp -rvf source destination = directory copy
+
+mv source destination = file and directory destination change
+
+mv source(old new file and directory) destination(new file and directory) = is specifically used to rename a file within the same directory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
