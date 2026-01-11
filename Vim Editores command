@@ -1,0 +1,41 @@
+************  Vim editor mode   **************
+1) Normal mode
+2) Insert mode ( i )
+3) visual mode (v) (V)
+4) ESC mode wq wq! q q! w w!
+
+
+
+<h1>  VIM COMMAND EDITOR
+
+i = insert mode
+
+I = Inserts text at the beginning of the current line
+
+V = one by one line select
+
+v = one by one line select
+
+yy = to yanked a line a copy
+
+nyy = to yank number of lines
+
+P = to paste the line above  
+
+p = to paste the line below 
+
+yw = to yank a  copy word
+
+nyw = to yank number of words (ex - 5yw)
+
+dd = to delete the line
+
+ndd = to delete number of lines {ex - 5dd)
+
+dw = to delete word
+
+ndw = to delete number of words
+
+cc = to cut the current line
+
+cw = to cut the current word
