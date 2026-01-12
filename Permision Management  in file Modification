@@ -1,0 +1,27 @@
+<h1> local permissin by default
+1) directory   rwx rwx r_x =775
+2) file        rw_ rw_ r_ _ = 664
+
+<h1> root permission by default
+1) directory      rwx r_x r_ x = 755
+2) file           rw_ r_ _ r_ _ = 644
+
+
+<h1> ***************** PERMISSION THE COMMAND *************
+
+chmod ugo+rwx fileNAME  = file permission full 777
+
+chmod ugo+rwx fileName  =  file permission all zero
+
+chmod 775 fileNAME  =  file permissin in allocate
+
+
+<h1> ******************* FILE PERMISSION ARE THE OWNERSHIP CHANGE COMMAND *************
+
+chown username filename  =  file of the user owner are change
+
+chown user:groupname  =  file of the user and group are change
+
+chown :groupname filename  =  file of the group owner change
+
+chgrp groupname filename  =  file of the group owner change 
