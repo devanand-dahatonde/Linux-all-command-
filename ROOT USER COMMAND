@@ -1,0 +1,174 @@
+ls/home = home directory in user show
+
+/etc/skel = 
+
+/var/spool/mail/logs
+
+cat /etc/passwd = all user show
+
+cat /etc/shadow = user passward releated information show
+
+cat /etc/group = group releated information show
+
+cat /etc/gshadow = gshadow group passward releated information store
+
+sudo -i = temporary route access
+
+useradd -m devanand = user create home directory
+
+userdel -r devanand = user delete in home directory
+
+adduser devanand = user create
+
+passwd devanand = user are passward create
+
+su - devanand = user in switch
+
+cd /home/devanand = route user access
+
+useradd -u 2002 devanand = spacific user id allocate in user create NOT home directory
+
+useradd -g OldUserId NewUserName
+
+<h1> ********************* USER ARE MODIFICATION ******************************
+
+usermod -l NewName OldName
+
+usermod -u 1001 devanand = userid in change
+
+useradd -m -u 3002 devanand = user create and spacific userid allocate in HOME directory
+
+usermod -c "comment" devanand = comment add
+
+usermod -c "" devanand = comment remove
+
+usermod -md /etc/devanand devanand  =  user in home directory change
+
+groupmod -g 1001 devanand  = groupid is change
+
+usermod -s /sbin/nologin devanand  =  login shell in change
+
+
+<h1> ******************* shadow in field change ********************
+
+chage -d 2020 devanand  =  last passward are the change
+
+chage -m 20 devanand  =  minimum days are change
+
+chage -M 20 devanand  =  maximum days are change
+
+chage -W 20 devanand =  warning days are change
+
+chage -I 20 devanand =  inactive days are change
+
+chage -E 20 devanand  = expire days are change
+
+chage -l devanand  = all changes are the show information list in history
+
+
+<h1> *************** GROUP USER MODIFICATION ***************************
+
+
+groupadd anand  = group user create
+
+addgroup anand  =  group user create
+
+gpasswd -a username anand  = group in one useradd only
+
+gpsswd -M user,user,user, user anand   =  group user in anlimited user added
+
+groupdel anand   =  group user delete
+
+usermod -g alreadyUSER theyGROUPIDinUSER =  create user in group id allocate
+
+
+<h1>  *************** GSHADOW MODIFICATION ********************
+
+
+gpasswd -d groupMEMBER groupUSER  =  group member are remove
+
+gpasswd -A groupADMIN groupUSER  =  group user added in group admin
+
+gpasswd -A '' groupUSER  =  group admin are remove
+
+usermod -L userNAME =  group IN user passward user lock 
+
+usermod -U username  =  group IN USER passward user unlock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
