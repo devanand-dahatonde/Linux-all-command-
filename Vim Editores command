@@ -39,3 +39,92 @@ ndw = to delete number of words
 cc = to cut the current line
 
 cw = to cut the current word
+
+ncc = to cut the number of line
+
+ncw = to cut the number of word
+
+u = undo words and line
+
+ctrl + r =  redo undo file are delete
+
+gg = gg press in first line
+
+ngg = send curser to number of the line
+
+G = to send curser at the bottom of the line
+
+nG = send curser to number of the line
+
+h = left
+
+j = down
+
+k = up
+
+l = right
+
+H = page at high top of the screen
+
+M = middle of the screen
+
+L = press in page to bottom curser
+
+$ = line in the end
+
+o = line in first word
+
+ctrl v = block select
+
+:set nonu = exit set number
+
+:set nu = set number
+
+:/data name = helight
+
+:nohl = no helight
+
+:w filename = new filename create
+
+:%s/old data/new data/  = data edit 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
