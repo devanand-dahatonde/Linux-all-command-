@@ -1,0 +1,19 @@
+<h1> ************* HARD LINK FILE AND SOFT LINK FILE CREATE COMMAND *****************
+
+
+ln -s filename /opt/soft link file  =  soft link file create in location /opt
+
+ln filename /etc/hard link file     = hard link file create in location /etc
+
+ls -in  = inode number digits shortcut and main file not same
+
+ls -l  =  full details hard link and soft link FILE show
+
+
+ <h1> ****************** SUDOERS ACCESSESS ****************
+
+
+vim /etc/sudoers  =  sudores file enter in user spacific permission
+
+root    ALL=(ALL:ALL) ALL  =  root user all permission
+EX user ALL=(ALL:ALL) ALL
