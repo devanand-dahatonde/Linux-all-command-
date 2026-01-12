@@ -1,0 +1,17 @@
+|less  =  one by one line UP and DOWN
+
+|more  =  page by page read
+
+|tail  =  down line read
+
+q      =  exit
+
+cat /etc/passwd | less  =  one by one line UP and DOWN 
+
+cat /etc/passwd | more  =  page by page read
+
+head -n 20number filename  =  up 20 line read 
+
+tail -n 20number filename  =  down 20 line read 
+
+sort -r filename |less   =   
