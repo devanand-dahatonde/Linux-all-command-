@@ -1,0 +1,83 @@
+cat file1 file2  = 2 file data in read
+
+cat file1 file2 > file3  = 1 & 2 file data to 3 file data march
+
+ ******* <h1>  GREP COMMAND  ********************************
+
+grep "ubuntu" filename  =  all small ward ubuntu select
+
+grep -i "ubuntu" filename = all small and capital ward ubuntu select
+
+grep -c "ubuntu" filename  =  how many all small ward ubuntu
+
+grep -ic "ubuntu" filename  = how many all small and capital ubuntu
+
+ls -l /etc/ | grep "nginx"  = /etc/ in nginx folder show 
+
+grep -v "ubuntu" filename  = invisible all small ward "ubuntu"
+
+grep -iv "ubuntu" filename  = invisible all small and capital ward "ubuntu"
+
+grep -v "ubuntu" filename > defile = filename all data in march to defile NOT ubuntu small ward
+
+grep -iv "ubuuntu" filename > defile  = filename all data in march to defile NOT small and capital ward
+
+
+*********** <h1> SORT COMMAND ****************************************************************
+
+sort -r file   === down and up data file visible
+
+
+************ <h1>  UNIQ COMMAND *************************************************************
+
+
+uniq OS-RELEASE == The uniq command is used to identify and filter out repeated lines that are adjacent to each other in a file
+
+
+
+************ <h1> FIND COMMAND **************************************************************
+
+find / -name os-release  === is used to search the entire system for a specific file named 'os-release
+
+find / -ctime 2  == "या कमांडचा वापर अशा फाईल्स शोधण्यासाठी केला जातो ज्यांच्या स्टेटसमध्ये (उदा. परमिशन किंवा मालकी हक्क) नेमके २ दिवसांपूर्वी बदल झाला होता.
+
+find / -cmin 2  == या कमांडचा वापर अशा फाईल्स शोधण्यासाठी केला जातो ज्यांच्या स्टेटसमध्ये (Metadata) नेमके २ मिनिटांपूर्वी बदल झाला आहे
+
+find / -perm 755  == या कमांडचा वापर संपूर्ण सिस्टीममध्ये अशा फाईल्स किंवा फोल्डर्स शोधण्यासाठी केला जातो ज्यांना '755' ही परमिशन दिली गेली आहे
+
+find / root -perm 755 == या कमांडचा वापर /root या डिरेक्टरीमध्ये अशा फाईल्स शोधण्यासाठी केला जातो ज्यांची परमिशन 755 आहे.
+
+find / -mtime 2  ==  या कमांडचा वापर अशा फाईल्स शोधण्यासाठी केला जातो ज्यांच्या कन्टेन्ट (Content) मध्ये नेमके २ दिवसांपूर्वी बदल करण्यात आला होता
+
+find / -mmin 2  ==  या कमांडचा वापर अशा फाईल्स शोधण्यासाठी केला जातो ज्यांच्या कन्टेन्ट (Content) मध्ये नेमके २ मिनिटांपूर्वी बदल करण्यात आला होता.
+
+find / -atime 2  == या कमांडचा वापर अशा फाईल्स शोधण्यासाठी केला जातो ज्या नेमक्या २ दिवसांपूर्वी एक्सेस (Access) केल्या गेल्या होत्या (म्हणजेच त्या फक्त वाचल्या किंवा उघडल्या गेल्या होत्या
+
+find / -user root ==  या कमांडचा वापर संपूर्ण सिस्टीममध्ये अशा फाईल्स किंवा डिरेक्टरीज शोधण्यासाठी केला जातो ज्यांचा मालक (Owner) 'root' युजर आहे.
+
+
+ 
+   <h1> MAIN FIND COMMAND
+
+find / -user USERNAME -exec rm -rf '{}' \;  === ही कमांड एका विशिष्ट युजरच्या (USERNAME) मालकीच्या सर्व फाईल्स आणि फोल्डर्स शोधून त्यांना कायमचे डिलीट (Delete) करण्यासाठी वापरली जाते
+
+find / -user USERNAME -exec cp -rf '{}' LOCATION \;  === या कमांडचा वापर एका विशिष्ट युजरच्या (USERNAME) मालकीच्या सर्व फाईल्स आणि फोल्डर्स शोधून त्यांना एका नवीन ठिकाणी (LOCATION) कॉपी करण्यासाठी केला जातो.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
