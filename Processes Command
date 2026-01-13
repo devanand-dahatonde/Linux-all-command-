@@ -1,0 +1,23 @@
+sleep 500  == processes in foreground 
+
+ps  == check processes show
+
+ps -e  == all processes show
+
+ps -l  == all running process show
+
+CTRL+z  == processes cancel
+
+kill -9 PIDnUMBER  == PROCESSES KILL
+
+fg  == fore groumd processes show
+
+sleep 500 &  == back ground processes but command is the running stage
+
+bg  == background processes show
+
+renice -n [-20 to 19] PIDNUMBER
+
+nice -n sleep 300
+
+top === all user show in process
