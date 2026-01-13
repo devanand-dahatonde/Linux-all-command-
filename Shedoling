@@ -1,0 +1,15 @@
+****** <h1> crontab install command **********
+
+apt update -y
+
+apt install cron
+
+service cron start 
+
+****** <h1> CRONTAB COMMAND ************
+
+crontab -e  =  crontab in enter
+
+crontab -l  =  check show
+
+date  =  check show date
